@@ -1,17 +1,20 @@
-# manjaro-linux
+# hydro-manjaro-linux
 
 [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Shell scripts for setting up [Manjaro Linux](https://manjaro.org/get-manjaro/) for Python programming and deep learning**
+**Shell scripts for setting up [Manjaro Linux](https://manjaro.org/get-manjaro/) for hydrological modelling and analysis**
 
 Author: Qiusheng Wu (<https://wetlands.io>)
+
+Modified by: Mohamed Ismaiel Ahmed
 
 ## How to use these shell scripts?
 
 - Open the Terminal and enter the following commands
-- git clone <https://github.com/giswqs/manjaro-linux.git>
-- cd manjaro-linux
-- sh shell-script-file (e.g., sh 01-update-mirrors)
+- `git clone https://github.com/MIsmlAhmed/hydro-manjaro-linux.git`
+- `cd hydro-manjaro-linux`
+- run the first shell file to install necessary packages (`./ 00-install_my_packages`)
+- browse the rest of the files for additional packages
 
 ## My favorite apps:
 
