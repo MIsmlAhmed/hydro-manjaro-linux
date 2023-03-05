@@ -18,7 +18,7 @@ sudo ln -s /opt/miniconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh
 source ~/.bashrc
 ###############################
 echo "installing internet packages"
-internet_pkgs= "filezilla google-chrome"
+internet_pkgs="filezilla google-chrome"
 yay -S $internet_pkgs --noconfirm
 ################################
 echo "Install GIS packages"
@@ -30,7 +30,7 @@ prdct_pkgs="flameshot ksnip notepadqq zoom slack-desktop inkscape meld libreoffi
 yay -S $prdct_pkgs --noconfirm
 ###############################
 echo "Install utility packages"
-utl_pkgs="timeshift gnome-disk-utility"
+utl_pkgs="gnome-disk-utility"
 yay -S $utl_pkgs --noconfirm
 ###############################
 #echo "mount hard drive to /media/hdd using gnome-disk-utility"
