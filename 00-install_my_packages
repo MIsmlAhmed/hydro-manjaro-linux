@@ -26,7 +26,7 @@ GIS_pkgs="arrow podofo mariadb libjxl udunits python-owslib python-jinja-time py
 yay -S $GIS_pkgs --noconfirm
 ###############################
 echo "Install productivity packages"
-prdct_pkgs="flameshot ksnip notepadqq zoom slack-desktop inkscape meld libreoffice-fresh"
+prdct_pkgs="flameshot notepadqq zoom slack-desktop inkscape meld libreoffice-fresh"
 yay -S $prdct_pkgs --noconfirm
 ###############################
 echo "Install utility packages"
