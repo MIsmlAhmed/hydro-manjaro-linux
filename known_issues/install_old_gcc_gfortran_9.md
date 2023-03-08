@@ -1,6 +1,7 @@
 # Install gcc gfortran v9 to compile old codes (e.g., MESH model)
+Thank you so much. After spending some time on this, the following worked for me:
 - Install `gcc9-fortran` from the add/remove sfotware GUI (AUR package). **The installation process takes ~3 hours**.
-- Verify that the installation was sucessful by running the following in the terminal:
+- Verify that the installation was successful by running the following in the terminal:
   - `gcc-9 --version`. This should return the following:
     ```
     gcc-9 (Arch Linux 9.5.0-1) 9.5.0
@@ -19,4 +20,4 @@
 
   `make CC=gcc-9 FC=gfortran-9`
   
-- Alternatively, in the makefile of your code, change all `CC=gcc` and `FC=gfortran` to `CC=gcc-9` and `FC=gfortran-9`. In this case you just run `mkae` without specifying the specific compiler.
+- Alternatively, in the makefile of your code, change all `CC=gcc` and `FC=gfortran` to `CC=gcc-9` and `FC=gfortran-9`. In this case, you just run `make` without specifying the specific compiler.
