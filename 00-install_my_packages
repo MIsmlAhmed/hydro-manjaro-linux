@@ -16,6 +16,8 @@ yay -S miniconda3 --noconfirm
 echo "[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh" >> ~/.bashrc
 sudo ln -s /opt/miniconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh
 source ~/.bashrc
+# deactivate conda by default
+# conda config --set auto_activate_base false
 ###############################
 echo "installing internet packages"
 internet_pkgs="filezilla google-chrome"
