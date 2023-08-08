@@ -1,7 +1,8 @@
 # Configure vs code to work with fortran debugging
 1. Install the following extensions: `Modern Fortran`, `Fortran Breakpoint Support`, `C/C++`, `Makefile Tools`, `GDB Debugger - Beyond`
-2. In your working directory (from the vs code file browser), create a new folder `.vscode`
-3. In the `.vscode` folder, create a `tasks.json` file that contains the following script, which is used to run a make command and generate the exe to debug
+2. Make sure that your makefile has the `-g` flag and remove the `-o` flag because it limits the info for debugging
+3. In your working directory (from the vs code file browser), create a new folder `.vscode`
+4. In the `.vscode` folder, create a `tasks.json` file that contains the following script, which is used to run a make command and generate the exe to debug
 `````
 {
     "version": "2.0.0",
